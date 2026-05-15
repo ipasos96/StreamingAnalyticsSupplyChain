@@ -7,7 +7,7 @@
 ## Estructura del proyecto
 
 ```
-tfm/
+StreamingAnalyticsSupplyChain/
 ├── data/
 │   ├── raw/               ← archivos fuente originales
 │   ├── processed/         ← datos limpios (generados por fase1)
@@ -43,7 +43,7 @@ Los datos no están incluidos en el repositorio por su tamaño.
 1. Descarga la carpeta completa desde [Google Drive](https://drive.google.com/drive/folders/151_unOKlMvEeXKnQ127PP7K_9ag0PgOa?usp=sharing)
 2. Colócala en la raíz del proyecto, de modo que quede así:
 ```
-tfm/
+StreamingAnalyticsSupplyChain/
 └── data/
     ├── raw/        ← archivos fuente originales
     ├── processed/  ← se genera al ejecutar Fase 1
