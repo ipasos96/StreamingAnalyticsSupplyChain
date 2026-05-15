@@ -10,7 +10,8 @@
 tfm/
 ├── data/
 │   ├── raw/               ← archivos fuente originales
-│   └── processed/         ← datos limpios (generados por fase1)
+│   ├── processed/         ← datos limpios (generados por fase1)
+│   └── catalogs/          ← catálogos de referencia
 ├── outputs/
 │   ├── dashboard/         ← gráficas del EDA
 │   ├── kpis/              ← tablas de KPIs
@@ -30,6 +31,26 @@ tfm/
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 📦 Datos
+
+Los datos no están incluidos en el repositorio por su tamaño.
+
+### Descarga
+
+1. Descarga la carpeta completa desde [Google Drive]([https://drive.google.com/REEMPLAZA_CON_TU_LINK](https://drive.google.com/drive/folders/151_unOKlMvEeXKnQ127PP7K_9ag0PgOa?usp=sharing))
+2. Colócala en la raíz del proyecto, de modo que quede así:
+```
+tfm/
+└── data/
+    ├── raw/        ← archivos fuente originales
+    ├── processed/  ← se genera al ejecutar Fase 1
+    └── catalogs/   ← catálogos de referencia
+```
+
+> La carpeta `data/processed/` se genera automáticamente al ejecutar la Fase 1.
 
 ---
 ## Requisitos previos
