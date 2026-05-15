@@ -37,7 +37,7 @@ tfm/
 Antes de ejecutar cualquier comando, asegúrate de estar dentro de la carpeta del proyecto:
 
 ```bash
-cd ruta/a/tfm_supply_chain
+cd ruta/a/StreamingAnalyticsSupplyChain
 ```
 
 Todos los comandos deben ejecutarse desde esta carpeta raíz, de lo contrario los scripts no encontrarán los archivos de datos y configuración.
