@@ -8,9 +8,10 @@
 
 ```
 StreamingAnalyticsSupplyChain/
+├── .streamlit/            ← configuración del dashboard
 ├── data/
 │   ├── raw/               ← archivos fuente originales
-│   ├── processed/         ← datos limpios (generados por fase1)
+│   ├── processed/         ← datos limpios (generados en fase1)
 │   └── catalogs/          ← catálogos de referencia
 ├── outputs/
 │   ├── dashboard/         ← gráficas del EDA
